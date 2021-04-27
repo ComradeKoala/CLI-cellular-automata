@@ -2,7 +2,7 @@
 
 
 ### Descrition
-A (cellular automata)[https://en.wikipedia.org/wiki/Cellular_automaton] simulator that runs in a CLI, implemented in Haskell.
+A [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton) simulator that runs in a CLI, implemented in Haskell.
 
 
 ### How to run
