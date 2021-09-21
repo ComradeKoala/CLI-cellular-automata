@@ -21,6 +21,7 @@ A [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton) simulato
 5. Run the main action by typing: ```main``` and pressing enter
 
 
+
 ### TODO:
 - Refactor code for readbility
-- Implement loading ruleset from a file
+- Implement abiltiy to load custom rules from a file
