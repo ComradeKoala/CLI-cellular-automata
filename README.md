@@ -15,9 +15,9 @@ A [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton) simulato
 
 ### How to run
 1. Make sure you have Haskell installed on your device, including GHCI.
-2. Clone reposetory using git
+2. Clone the reposetory using git
 3. Open GHCI using your prefered CLI.
-4. Load Oblig.hs using ```:load <filename>```
+4. Load Oblig2.hs using ```:load <filename>```
 5. Run the main action by typing: ```main``` and pressing enter
 
 
