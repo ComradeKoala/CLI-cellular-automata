@@ -3,7 +3,7 @@
 
 ### Descrition
 A [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton) simulator that runs in a CLI, implemented in Haskell.
-Originily developed as a compuslory exersie for {UIB's course on Functional Programing](https://www.uib.no/en/course/INF122) for the fall of 2020.
+Originily developed as a compuslory exersie for [UIB's course on Functional Programing](https://www.uib.no/en/course/INF122) for the fall of 2020.
 
 
 ### Features
