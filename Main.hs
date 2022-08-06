@@ -1,4 +1,6 @@
 --Jørgen Lohne, Group 1
+
+--glider example
 -- 10 (s 0 0, b 2 2) 1 1 4 1 2 2 3 2
 
 import Data.List
@@ -6,8 +8,7 @@ import Data.Char
 import System.Directory
 import Control.Concurrent
 
---Oblig 2
-
+import Util
 
 --------
 --MAIN--
@@ -32,7 +33,7 @@ main = do --starts program and deals with initialastion
             putStr "No such file / incorrect file format (r command format: r filename)"
             main
             
-        else do --if file exist
+        else do --if file exist --TODO read from file
             putStr "Try after initalising a board"
             main
             {-
@@ -206,20 +207,6 @@ gameLoop boardsize livingcells birthThreshold survivalThreshold liveMode = do
             putStrLn "not a valid command"
             gameLoop boardsize livingcells birthThreshold survivalThreshold 0
 
-
-
-{--------
---Helpers
----------}
-
-getUsedInput :: IO String
-getUsedInput = do 
-    xs <- getLine
-    return xs
-
-
-removeLivingCells :: [(Int, Int)] -> [(Int, Int)] -> [(Int, Int)]
-removeLivingCells from rem = from \\ rem
 
 
 {--------------------
