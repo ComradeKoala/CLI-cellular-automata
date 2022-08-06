@@ -13,7 +13,7 @@ Originily developed as a compuslory exersie for {UIB's course on Functional Prog
 - up to 99 x 99 sized field.
 
 
-## Prerequisites
+### Prerequisites
 - [Haskell](https://www.haskell.org/downloads/)
 
 
